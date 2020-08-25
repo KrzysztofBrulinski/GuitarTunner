@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    background-image: url("../img/guitar.jpg");
+    background-position: top center;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-display: Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(255, 196, 0);
+    width: 100%;
+    margin-top: 7%;
+}
+
+section {
+    display: inline-block;
+    width: 100%;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+section button {
+    width: 140px;
+    height: 120px;
+    background: rgba(53, 53, 53, 0.527);
+    border: solid rgb(255, 196, 0) 2px;
+    padding: 10px;
+    margin: 3px 15px;
+
+}
+
+section button:hover {
+    color:  rgb(255, 196, 0);
+    background: rgba(0, 0, 0, 0.527);
+    cursor: pointer;
+}
+
+button:focus {outline:0;}
